@@ -1,61 +1,61 @@
 /*
-è®Šæ•¸å‹æ…‹:
-1. åŸºæœ¬æ•¸æ“šå‹æ…‹: 
-	* æ•´æ•¸: byte/ short/ int / long
-	* æµ®é»æ•¸: float/ double
-	* å­—å…ƒ: char
-	* å¸ƒæ—å€¼: boolean
-2. å¼•ç”¨æ•¸æ“šå‹æ…‹:
-	* é¡åˆ¥: class (å­—ä¸²ç‚ºæ­¤ç¨®)
-	* æ¥å£: interface
-	* æ•¸çµ„: array[]
+ÅÜ¼Æ«¬ºA:
+1. °ò¥»¼Æ¾Ú«¬ºA: 
+	* ¾ã¼Æ: byte/ short/ int / long
+	* ¯BÂI¼Æ: float/ double
+	* ¦r¤¸: char
+	* ¥¬ªL­È: boolean
+2. ¤Ş¥Î¼Æ¾Ú«¬ºA:
+	* Ãş§O: class (¦r¦ê¬°¦¹ºØ)
+	* ±µ¤f: interface
+	* ¼Æ²Õ: array[]
 */
 class VariableTest1 {
 	public static void main(String[] args){
-		// è®Šæ•¸å®šç¾©
+		// ÅÜ¼Æ©w¸q
 		int myAge = 12;
-		// è®Šæ•¸ä½¿ç”¨
+		// ÅÜ¼Æ¨Ï¥Î
 		System.out.println(myAge);
 		
-		// è®Šæ•¸å®£å‘Š
+		// ÅÜ¼Æ«Å§i
 		int myNumber;
-		// è®Šæ•¸é™„å€¼
+		// ÅÜ¼Æªş­È
 		myNumber = 1001;
 		System.out.println(myNumber);
 		
-		// 1. æ•´æ•¸: byte(8 bits)/ short(2 Bytes)/ int(4 Bytes)/ long(8 Bytes), ä¸»è¦ç”¨int
-		// Byteçš„ç¯„åœ: -128 ~ 127
+		// 1. ¾ã¼Æ: byte(8 bits)/ short(2 Bytes)/ int(4 Bytes)/ long(8 Bytes), ¥D­n¥Îint
+		// Byteªº½d³ò: -128 ~ 127
 		byte byte1 = 12;
 		byte byte2 = -128;
 		System.out.println(byte1);
 		System.out.println(byte2);
 		short short1 = 128;
 		int int1 = 1234;
-		// longé™„å€¼éœ€è¦ä»¥"L"æˆ–"l"çµå°¾
+		// longªş­È»İ­n¥H"L"©Î"l"µ²§À¡A¤£¥[«hlong·|³Q±j¨î«¬ºAÂà´«¬°int
 		long long1 = 3414256457L;	
 		System.out.println(long1);
 		
-		// 2. æµ®é»æ•¸: float(4 Bytes)/ double(8 Bytes), ä¸»è¦ç”¨double
-		// float(4 Bytes)è¡¨ç¤ºçš„ç¯„åœæœƒæ¯”long(8 Bytes)é‚„å¤§
+		// 2. ¯BÂI¼Æ: float(4 Bytes)/ double(8 Bytes), ¥D­n¥Îdouble
+		// float(4 Bytes)ªí¥Üªº½d³ò·|¤ñlong(8 Bytes)ÁÙ¤j
 		double double1 = 123.1;
 		System.out.println(double1);
-		// floaté™„å€¼éœ€è¦ä»¥"F"æˆ–"f"çµå°¾
+		// floatªş­È»İ­n¥H"F"©Î"f"µ²§À
 		float float1 = 123.1F;
 		System.out.println(float1);
 		
-		// 3. å­—å…ƒ: char (1å­—å…ƒ = 2 Bytes, C èªè¨€1å­—å…ƒ = 1 Bytes)
+		// 3. ¦r¤¸: char (1¦r¤¸ = 2 Bytes, C »y¨¥1¦r¤¸ = 1 Bytes)
 		char char1 = 'a';
-		char char2 = 'å°';
+		char char2 = '¥x';
 		System.out.println(char1);
 		System.out.println(char2);
-		// ä¹Ÿå¯ä»¥ç›´æ¥ä½¿ç”¨Unicodeç·¨ç¢¼\\ué–‹é ­çš„16é€²åˆ¶
+		// ¤]¥i¥Hª½±µ¨Ï¥ÎUnicode½s½X\\u¶}ÀYªº16¶i¨î
 		char char3 = '\u0043';
 		System.out.println(char3);
-		// å°‡æ–‡ä»¶ä¿å­˜ç‚ºANSI GBKç·¨ç¢¼æ ¼å¼ï¼Œå‰‡å¯ä»¥åœ¨çµ‚ç«¯æ©Ÿè§£æä¸­æ–‡
-		System.out.println("æ—©ä¸Šå¥½ï¼Œå°ç£!");
+		// ±N¤å¥ó«O¦s¬°ANSI GBK½s½X®æ¦¡¡A«h¥i¥H¦b²×ºİ¾÷¸ÑªR¤¤¤å
+		System.out.println("¦­¤W¦n¡A¥xÆW!");
 		
-		// 4. å¸ƒæ—å€¼: boolean
-		// åªèƒ½ç‚ºtrue, false è¦å°å¯«
+		// 4. ¥¬ªL­È: boolean
+		// ¥u¯à¬°true, false ­n¤p¼g
 		boolean bool1 = true;
 		System.out.println(bool1);
 	}
