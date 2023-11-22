@@ -16,7 +16,8 @@ class VariableTest3 {
 		// 會有溢位問題
 		int int2 = 128;
 		byte byte1 = (byte)int2;
-		System.out.println(byte1);	//輸出-128溢位
+		System.out.println(byte1);	//輸出-128溢位 --> 128 = 0000 0000 0000 0000 0000 0000 1000 0000 (強制轉型後)
+									// 						                               1000 0000 (最高位為負 = -128)
 		
 	}
 }
