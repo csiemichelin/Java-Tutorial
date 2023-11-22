@@ -13,7 +13,7 @@ class VariableTest3 {
 		// 沒有精度損失
 		long long1 = 123;
 		short short1 = (short)long1;
-		// 會有溢位問題
+		// 會有溢位問題(但可以編譯也能執行)
 		int int2 = 128;
 		byte byte1 = (byte)int2;
 		System.out.println(byte1);	//輸出-128溢位 --> 128 = 0000 0000 0000 0000 0000 0000 1000 0000 (強制轉型後)
