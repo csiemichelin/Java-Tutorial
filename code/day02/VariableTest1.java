@@ -53,7 +53,7 @@ class VariableTest1 {
 		System.out.println(char3);
 		char char4 = 97;	//輸出結果: a
 		char char5 = '5';	
-		int int2 = (int)char5;	// 等於int int2 = char5;
+		int int2 = (int)char5;	// 等於int int2 = char5;，變數範圍小到大也可以做強制型態轉換
 		System.out.println(int2);	//輸出結果: 53(ASCII)
 		// 將文件保存為ANSI GBK編碼格式，則可以在終端機解析中文
 		System.out.println("早上好，台灣!");
