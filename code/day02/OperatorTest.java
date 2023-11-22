@@ -54,6 +54,11 @@ class OperatorTest{
 		int b3 = a3;
 		System.out.println("a3 = " + a3 + ", b3 = " + b3);	// 輸出結果: a3 = 11, b3 = 11
 		
+		// 4. (前)-- :先減一再運算，(後)--: 先運算再減一 
+		int a4 = 10;
+		int b4 = a4--;
+		System.out.println("a4 = " + a4 + ", b4 = " + b4);	// 輸出結果: a4 = 9, b4 = 10
+		
 		//***************************注意點*********************************
 		short short1 = 10;
 		// short1 = short1 + 1;	// 編譯失敗
@@ -64,6 +69,6 @@ class OperatorTest{
 		byte1++;
 		System.out.println("byte1 = " + byte1);		// 輸出結果: -128，發生溢位問題，參考VariableTest3.java
 		
-		// 4. (前)-- :先減一再運算，(後)--: 先運算再減一 
+		
 	}
 }
