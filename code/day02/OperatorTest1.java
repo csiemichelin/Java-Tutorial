@@ -2,7 +2,7 @@
 運算子之一: 算數運算子
 + - + - * / % (前)++ (後)++ (前)-- (後)-- +
 */
-class OperatorTest{
+class OperatorTest1{
 	public static void main(String[] args){
 		// 1. 除號: /
 		int num1 = 12;
