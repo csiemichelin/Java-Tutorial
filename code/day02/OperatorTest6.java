@@ -8,7 +8,8 @@
 		如果表達式為false，則執行表達式2
 	(3) 表達式1和表達式2，要求是一致的(統一為數值類型或字串類型)
 	(4) 三元運算子可嵌套使用
-3. 凡是可以使用三元運算子的地方，都可以改寫為if-else
+3. 凡是可以使用三元運算子的地方，都可以改寫為if-else; 反之，不成立(因為三元運算子要統一為數值類型或字串類型)
+4. 如果程式可以使用三元運算子，又可以使用if-else結構，那麼優先選擇三元運算子。原因: 簡潔、執行效率高
 */
 class OperatorTest6{
 	public static void main(String[] arg){
@@ -35,5 +36,13 @@ class OperatorTest6{
 		max3 = (max3 > num3)? max3 : num3;
 		// int max4 = (((num1 > num2)? num1 : num2) > num3)? ((num1 > num2)? num1 : num2) : num3;	// 相當於前兩行，不建議
 		System.out.println("三個數的最大值為: " + max3);
+		
+		//**********************************************************
+		// 改寫成if-else
+		if(m > n){
+			System.out.println(m);
+		}else{
+			System.out.println(n);
+		}
 	}
 }
