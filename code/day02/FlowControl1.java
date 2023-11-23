@@ -26,7 +26,7 @@
 		執行表達式n
 	}
 */
-class FlowControl{
+class FlowControl1{
 	public static void main(String[] arg){
 		// 舉例1
 		int heartBeats = 79;
