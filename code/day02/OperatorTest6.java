@@ -8,6 +8,7 @@
 		狦笷Αfalse玥磅︽笷Α2
 	(3) 笷Α1㎝笷Α2璶―琌璓(参计摸┪﹃摸)
 	(4) じ笲衡碠甅ㄏノ
+3. 琌ㄏノじ笲衡よ常э糶if-else
 */
 class OperatorTest6{
 	public static void main(String[] arg){
@@ -24,5 +25,15 @@ class OperatorTest6{
 		//**********************************************************
 		String maxStr = (m > n)?"m" : (m == n)? "m㎝n单" : "n";
 		System.out.println(maxStr);
+		
+		//**********************************************************
+		// 莉计程
+		int num1 = 12;
+		int num2 = 30;
+		int num3 = -43;
+		int max3 = (num1 > num2)? num1 : num2;
+		max3 = (max3 > num3)? max3 : num3;
+		// int max4 = (((num1 > num2)? num1 : num2) > num3)? ((num1 > num2)? num1 : num2) : num3;	// 讽玡ㄢ︽ぃ某
+		System.out.println("计程: " + max3);
 	}
 }
