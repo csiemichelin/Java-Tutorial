@@ -12,7 +12,22 @@ class ScannerTest1{
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
 		
-		int num = scanner.nextInt();
-		System.out.println(num);
+		System.out.println("請輸入你的姓名: ");
+		String name = scanner.next();
+		System.out.println(name);
+		
+		System.out.println("請輸入你的年齡: ");
+		int age = scanner.nextInt();
+		System.out.println(age);
+		
+		System.out.println("請輸入你的體重: ");
+		double weight = scanner.nextDouble();
+		System.out.println(weight);
+		
+		System.out.println("您是否單身? (true/false)");
+		double isLonly = scanner.nextBoolean();
+		System.out.println(isLonly);
+		
+		// 對於char
 	}
 }
