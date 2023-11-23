@@ -11,6 +11,7 @@ class OperatorTest4{
 		// 相同點1:  & 與 && 運算結果相同
 		// 相同點2: 當符號左邊是true時，二者都會執行符號右邊的運算
 		// 不同點: 當符號左邊是flase時，&繼續執行符號右邊的運算，&&不再執行符號右邊的運算
+		// 開發中，推薦使用 &&
 		boolean bool1 = true;
 		bool1 = false;
 		int num1 = 10;
@@ -35,6 +36,7 @@ class OperatorTest4{
 		// 相同點1:  | 與 || 運算結果相同
 		// 相同點2: 當符號左邊是false時，二者都會執行符號右邊的運算
 		// 不同點: 當符號左邊是true時，|繼續執行符號右邊的運算，||不再執行符號右邊的運算
+		// 開發中，推薦使用 
 		boolean bool3 = false;
 		bool3 = true;
 		int num3 = 10;
