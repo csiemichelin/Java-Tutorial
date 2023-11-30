@@ -26,7 +26,7 @@ class SwitchCaseTest1{
 		case 7:
 		case 8:
 		case 9:
-		case 6:
+		case 10:
 			System.out.println("¦X®æ");
 			break;
 		}
