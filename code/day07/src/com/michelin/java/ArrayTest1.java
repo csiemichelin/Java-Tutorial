@@ -42,14 +42,14 @@ public class ArrayTest1 {
 		}
 		System.out.println("最小值為: " + minValue);
 		
-		// 求數值型陣列中元素的平均數
+		// 求數值型陣列中元素的總和
 		int sum = 0;
 		for(int i = 0; i < arr.length; i++) {
 			sum += arr[i];
 		}
 		System.out.println("總和為: " + sum);
 		
-		// 求數值型陣列中元素的總和
+		// 求數值型陣列中元素的平均數
 		int avgValue = sum / arr.length;
 		System.out.println("平均數為: " + avgValue);
 	}

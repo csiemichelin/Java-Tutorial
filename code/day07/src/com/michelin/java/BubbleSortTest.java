@@ -15,7 +15,7 @@ public class BubbleSortTest {
 		
 		// 冒泡排序
 		for(int i = 0; i < arr.length - 1; i++) {	// 幾輪(最後一輪就是他自己不用交換)
-			for(int j = 0; j < arr.length - 1 - i; j++) {	// 每輪做到的最後一個值
+			for(int j = 0; j < arr.length - 1 - i; j++) {	// 每輪做到的最後一個值(因為排好的會放到後面)
 				if(arr[j] > arr[j + 1]) {
 					int temp = arr[j];
 					arr[j] = arr[j + 1];
