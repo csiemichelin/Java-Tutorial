@@ -3,7 +3,9 @@ package com.michelin.java1;
  * 關於變量的賦值
  * 
  * 1. 如果變量是基本數據類型，此時賦值的是變量所保存的數據值
- * 2. 如果變量是引用數據類型，此時賦值的是變量所保存的數據地址值
+ * 2. 如果變量是引用數據類型，此時賦值的是變量所保存的數據地址值(含變量的數據類型)
+ * Person p1 = new Person();
+ * User u1 = p1; // 編譯錯誤，雖然都是位址，但是數據類型需要相同
  */
 public class ValueTransferTest {
 	public static void main(String[] args) {

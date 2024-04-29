@@ -34,7 +34,7 @@ public class OverLoadTest {
 		System.out.println("4");
 	}
 	
-	// 以下皆不是重載
+	// 如下的4個方法不能與上述4個方法構成重載
 //	public int getSum(int i, int j) {
 //		return 0;
 //	}
